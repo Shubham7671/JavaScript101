@@ -239,28 +239,6 @@ console.log(newArr);
 
 //filter
 
-let original = [2011, 2051, 2022, 2003, 1999, 1857];
-
-let filteredArr = original.filter(function(el){
-    return el>2010 //2003 > 2010
-})
-
-// let filteredArr = original.map(function(el){
-//     return el>2010 //2003 > 2010
-// })
-
-console.log(filteredArr);
-
-
-console.log('original');
-console.log(original);
-
-
-let qualified = [15, 17, 12, 56, 67, 100]
-
-let elementIndex = qualified.findIndex(function(age){
-    return age>18
-})
 
 let element = qualified.find(function(age){
     return age>18
