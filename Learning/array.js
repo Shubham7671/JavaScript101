@@ -65,57 +65,7 @@
 // unshift --> add at the start index
 // shift --> delete fromm the start index
 
-// let arr = [5,6,7,8]
 
-// console.log(arr); // 5 6 7 8
-
-// arr.push(10) // 5 6 7 8 10
-
-// console.log(arr);
-
-// arr.unshift(20);// 20 5 6 7 8 10
-
-// console.log(arr);
-
-// arr.shift();
-
-// console.log(arr);
-/*
-let arr = [5,6,7,8,9,10,11]
-
-// delete arr[1]
-// console.log(arr);
-
-// slicing and splicing
-// slicing never changes the originial array but it returns a new array
-// takes two arguments 1st--starting index 2nd--ending index
-
-let slicedarr1 = arr.slice(2,5);
-let slicedarr2 = arr.slice(2);
-console.log(arr);
-console.log(slicedarr1);
-console.log(slicedarr2);
-
-let slicedarr = arr.slice(2, arr.length); //same as line 93
-console.log(slicedarr2);
-
-console.log(arr);
-*/
-
-// splicing
-/*
-let arr = [34,67,5,4,95,45,63,59]
-console.log(arr);
-
-let splicedArr = arr.splice(4,3);
-
-console.log(arr); // 34 67 5 4 59
-
-console.log(splicedArr); // 95 45 63
-
-arr.splice(2);
-
-console.log(arr);
 
 
 // 1st argument is starting index
