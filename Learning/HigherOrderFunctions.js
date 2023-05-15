@@ -57,3 +57,44 @@ function printAddress(){
 
 function printDetails(){
     
+    console.log('Abhinav');
+    
+    console.log('Delhi');
+    
+    console.log('Instructor');
+
+    return 'abhinav'
+}
+
+var output = printDetails()
+
+console.log(output);
+
+// console.log(printDetails());
+
+function PrintName(){
+    console.log('name is abhinav');
+    return function(){
+        console.log('address is delhi');
+        return 10
+    }
+}
+
+var address = PrintName(); 
+
+var result = address()
+
+// result(); //error
+
+console.log(result);
+
+// result
+// 1. name is abhinav
+// 2. name is abhinav and address
+// 3. 
+
+// PrintName()();
+
+
+// console.log(PrintName()());
+*/
