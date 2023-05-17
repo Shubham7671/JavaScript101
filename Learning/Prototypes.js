@@ -142,3 +142,15 @@ Object.setPrototypeOf(obj1, obj2);
 // Object.setPrototypeOf(obj2, obj1);
 
 
+console.log(obj1.add2);
+// console.log(obj1.print());
+
+// console.log(obj1);
+console.log(obj1.__proto__.__proto__);
+console.log(obj2);
+
+
+let arr = [1,2,3];
+console.log(arr.__proto__);
+console.log(Array.prototype);
+
