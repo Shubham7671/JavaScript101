@@ -306,7 +306,11 @@ let getMessages = (friendList) => {
 //     console.log('finished');
 // })
 
-
+// calling multiple promises
+// it takes aray of promises
+// returns array of values if all the promises are successful
+// if any of the promises get failed catch block will be executed
+// if multiple promises are failing then whoever is the first one that will reach the catch block 
 
 // Promise.all([fetchUserId('abhinav'),getFriendList('123'), getMessages()])
 // .then((value) => {
