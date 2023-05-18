@@ -412,3 +412,81 @@ console.log('end');
 
 
 
+
+// question ---> why ????
+
+/*
+// Web Apis
+(i) => {
+    console.log(i); //1
+}
+timer = 1sec
+
+(i) => {
+    console.log(i); //2
+}
+timer = 2sec
+
+(i) => {
+    console.log(i); //3
+}
+timer = 3sec
+
+(i) => {
+    console.log(i);
+}
+timer = 4sec
+
+(i) => {
+    console.log(i);
+}
+timer = 5sec
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Assignment -- Whack a mole
+// let squareCollection = document.getElementsByClassName('square')
+// let index = Math.floor(Math.random()*10);
+
+// let mole = <img></img>
+// squareCollection[index].innerHtml = mole
+
+// function selectDiv(){
+//     return squareCollection[index].innerHtml
+// }
+
+// let getDiv = selectDiv()
+
+// div.addEventListener('click', (e) => {
+//     let getDiv = selectDiv()
+//     e.target = getDiv
+
+// })
+
+// setInterval(() => {
+//     let getdiv = selectDiv();
+// },1000)
+
+// function matchmolewithdiv(){
+
+// }
+
+
