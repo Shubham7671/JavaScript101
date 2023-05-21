@@ -221,4 +221,15 @@ th.innerText = 'Name'
 
 let outer = document.querySelector('.outer-container');
 
+// console.log(outer.parentElement); //body
+// // console.log(outer.childNodes); //htmlcollection
+// let container = outer.children
+
+// console.log(outer.children[0].children[1]);
+
+console.log(outer.firstElementChild.firstElementChild);
+console.log(outer.lastElementChild.lastElementChild);
+
+
+
 
