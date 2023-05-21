@@ -164,3 +164,34 @@ function contextCalss(){
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function Person1(name){
+//     this.name = name
+// }
+
+// function calculateAge(){
+
+// }
+
+// const calculateAge = () => {
+
+// }
+
+
+// step 1 ---> find the user ---> if pass --> pas
+// step 2 ----> match  the password --> match --> if this also pass
+// step 3 --> shows home page
