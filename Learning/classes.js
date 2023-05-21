@@ -106,3 +106,61 @@ console.log(dhoni.getSpeciality());
 
 
 
+class ContextClass{
+    value = 'test'
+    shity = ''
+    constructor(name){
+        this.name = name
+    }
+
+    ContextPrint(){
+
+        console.log(this);
+    }
+
+    arrowContextPrint = () => {
+        console.log(this);
+    }
+
+}
+console.log(ContextClass);
+
+
+
+
+
+
+
+
+
+// let context1 = new ContextClass();
+// context1.ContextPrint();
+// context1.arrowContextPrint();
+
+
+
+// let obj = {
+//     test: function(){
+//         console.log(this);
+//         var test1 = () => {
+//             console.log(this);
+//         }
+//         test1()
+//     },
+//     name: 'ram'
+// }
+
+// obj.test()
+
+
+
+function contextCalss(){
+    let a = 10;
+    let b = 10;
+
+    function inner1(){
+        let x = 10;
+        let y =120;
+    }
+}
+
