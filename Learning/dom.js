@@ -146,3 +146,62 @@ function createThandAddData(data){
     return theadhead
 }
 
+
+
+//function to create td and add data
+function CreateTdAndAddData(data){
+    let td = document.createElement('td');
+    td.innerText = data
+    return td
+}
+
+// crete one tr
+
+// create td with data
+
+// append td with data in tr
+
+
+// create tbody
+
+// append tr in tbody
+
+// append tbody in table
+
+
+
+
+
+theadhead.appendChild(theadRow);
+
+myTable.appendChild(theadhead);
+
+console.log(myTable);
+
+
+let body = document.body
+body.appendChild(myTable)
+
+
+
+
+// css
+// 1. inline style 
+// 2. internal style
+// 3. external style
+
+//create table header
+let table = document.createElement('table');
+
+console.log(table);
+
+let thead = document.createElement('thead')
+
+console.log(thead);
+
+table.appendChild(thead);
+
+let tr = document.createElement('tr');
+
+
+
