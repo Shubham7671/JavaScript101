@@ -205,3 +205,20 @@ let tr = document.createElement('tr');
 
 
 
+thead.appendChild(tr);
+console.log(tr);
+
+let th = document.createElement('th');
+
+tr.appendChild(th);
+
+th.innerText = 'Name'
+*/
+
+
+
+//Dom navigation
+
+let outer = document.querySelector('.outer-container');
+
+
