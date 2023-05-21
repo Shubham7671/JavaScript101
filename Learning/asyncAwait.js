@@ -103,3 +103,23 @@ const getUser = async () => {
     return data
 }
 
+getUser()
+.then((data) => {
+    // for(let i =0; i<data.length;i++){
+    //     console.log(data[i]);
+    // }
+    console.log(data);
+})
+
+// console.log('end');
+
+
+
+
+console.log('start');
+
+setTimeout(() => {
+    console.log('inside');
+}, 0);
+
+console.log('end');
