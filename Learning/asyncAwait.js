@@ -97,7 +97,21 @@ async function executePromise(){
 
 // console.log('start');
 
+const getUser = async () => {
+    let res = await fetch('https://jsonplaceholder.typicode.com/users');
+    let data = await res.json();
+    return data
+}
 
+getUser()
+.then((data) => {
+    // for(let i =0; i<data.length;i++){
+    //     console.log(data[i]);
+    // }
+    console.log(data);
+})
+
+// console.log('end');
 
 
 
